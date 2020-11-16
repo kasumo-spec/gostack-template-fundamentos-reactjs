@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 export default createGlobalStyle`
   * {
@@ -19,5 +20,9 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  .Toastify__toast {
+    border-radius: 5px !important;
   }
 `;
